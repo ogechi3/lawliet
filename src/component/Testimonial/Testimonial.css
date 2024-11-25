@@ -1,0 +1,73 @@
+.testimonial {
+  background: #f2f7ff;
+  align-items: center;
+  padding: 2rem 7rem ;
+}
+.testimonial h1 {
+  font-family: "Playfair Display",serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0.5px;
+  text-align: center;
+
+}
+
+.testimonial-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: rgba(0, 0, 0, 0.1);
+  gap: 24px;
+  
+ 
+  
+ 
+}
+
+.testi-card{
+     background: #ffffff;
+     padding: 1rem;
+     border-radius: 10px;
+
+}
+
+.testi-title{
+    text-align: center;
+
+}
+
+.testi-title p:first-child{
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+color: #151617;
+}
+
+.testi-title p:last-child{
+font-family:" Inter", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color:  #2D2F30;
+
+}
+
+.testi-card p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #2d2f30;
+}
+
+.testi-card p:last-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #4f4f4f;
+}

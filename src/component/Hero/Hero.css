@@ -1,0 +1,123 @@
+.Hero-container {
+  margin: 0px;
+  padding: 0;
+  background-image: url("/Group 492.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.Hero-content {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  grid-template-columns: 2;
+}
+
+.left-div {
+  margin-left: 8rem;
+}
+
+.Hero-title {
+  background: #e7f6ff;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.Hero-title p {
+  padding: 0.5rem;
+}
+.new {
+  background: #094b72;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 0.05rem 1rem 0.05rem 1rem;
+}
+
+.subtitle,
+.heading {
+  color: #193e6c;
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 108px;
+  letter-spacing: 0.02em;
+}
+
+.subject {
+  font-family: "Plus Jakarta Sans" sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 37.92px;
+  letter-spacing: 0.5px;
+  color: #4f4f4f;
+}
+
+button {
+  background: #094b72;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22.48px;
+  letter-spacing: 0.08em;
+  color: #f9f8f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.trusted {
+  font-family: Plus Jakarta Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.91px;
+  letter-spacing: 0.04em;
+  color: #8b8c8c;
+}
+.right-div,
+.left-div {
+  height: 100%;
+}
+
+.right-div {
+  position: relative;
+}
+
+.right-div img {
+  position: relative;
+
+  height: fit-content;
+}
+
+.companies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5px;
+}
+.companies img{
+  padding: 6px;
+}
+
+.lawyer {
+  background: #ffffff;
+  color: #33475b;
+  float: right;
+  width: 382px;
+  height: 114px;
+  top: 934.51px;
+  left: 858.1px;
+  gap: 0px;
+  border: none;
+  position: absolute;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+ 
+}
+
+.lawyer p {
+  color: #87898c;
+}
